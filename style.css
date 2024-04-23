@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+.top {
+    background-color: #1F2937; 
+    color: white;
+}
+.header {
+    display: flex;
+    margin-right:auto;
+
+}
+
