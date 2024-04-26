@@ -20,29 +20,115 @@ ul {
     justify-content: start;
     text-wrap: wrap;    
 }
-*/
 
-html, body {
+
+*/
+  
+body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
-  }
-  
-  
-  
-  body {
     display: flex; 
     flex-direction: column;
   }
 
-  
+.top {
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+.awesome {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
 
 .header {
     display: flex;
     justify-content: space-between; 
     padding: 10px;
-    background-color: lightblue;
-    
+    font-size: 15px;
   }
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/*
+.leftTop {
+    color: white;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+
+}
+*/
+
+.secondTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.leftTop {
+    color: white;
+}
+
+.signUpButton {
+    padding: 5px 15px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+}
+
+img {
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+
+
+}
+
+.randomHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subtext2{
+    font-size: 14px;
+    margin-top: 100px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+/*
+.rightTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
 
