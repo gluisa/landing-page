@@ -115,7 +115,7 @@ img {
 
 .subtext2{
     font-size: 14px;
-    margin-top: 100px;
+    margin-top: 200px;
     color: gray;
     display: flex;
     flex-direction: row;
@@ -124,11 +124,70 @@ img {
 
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 70px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actualQuote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quoteAuthor {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.callToAction{
+   background-color: white;
+   display: flex;
+   justify-content: center;
+
+   
+}
+
+.blueBox {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px; 
+    width: 800px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.signUpButton2 {
+    padding: 5px 15px;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-self: start;
+    align-items: center;
+    
+
+}
+
 /*
 .rightTop{
+     width: 500px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
 }
 */
 
