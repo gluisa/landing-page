@@ -102,8 +102,6 @@ img {
     margin-top: 10px;
     width: 400px;
     height: 200px;
-
-
 }
 
 .randomHeader {
@@ -173,10 +171,16 @@ img {
     color: white;
     border-radius: 8px;
     display: flex;
-    align-self: start;
-    align-items: center;
-    
+    align-self: center; 
+}
 
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 /*
