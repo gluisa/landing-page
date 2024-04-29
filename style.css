@@ -70,16 +70,6 @@ ul {
     flex-direction: row;
     gap: 10px;
 }
-/*
-.leftTop {
-    color: white;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    flex-direction: column;
-
-}
-*/
 
 .secondTop{
     display: flex;
